@@ -1,1 +1,8 @@
 mylogs.log
+#to ignore all files of name mylogs.log present anywhere 
+ignore/
+#to ignore the ignore dir syntax dirname/
+*.log 
+#to ignore all files with .log extension
+/mylogs.log
+#to ignore file named mylogs.log in present dir only
